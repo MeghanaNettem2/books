@@ -8,11 +8,11 @@ node {
       // **       in the global configuration.           
      
    }
-   stage('Build') {
+   //stage('Build') {
       
-         sh "mvn clean install"
+        // sh "mvn clean install"
      
-      }
+      //}
       stage('email')
       {
     mail body: 'build success mail', subject: 'test', to: 'soumi.paul5@gmail.com'
