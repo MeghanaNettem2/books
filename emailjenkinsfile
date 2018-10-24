@@ -15,6 +15,6 @@ node {
       }
       stage('email')
       {
-    mail body: 'build success mail', subject: 'test', to: 'ranjitha.nagaraj2@mindtree.com'
+    mail body: 'build success mail', subject: 'test', to: 'soumi.paul5@gmail.com'
 }
 }
