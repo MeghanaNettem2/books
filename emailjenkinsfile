@@ -1,11 +1,9 @@
 
 node {
-  stage('Preparation') { // for display purposes
-      // Get some code from a GitHub repository
+  stage('Preparation') { 
+      
       git 'https://github.com/ranjithanagaraj/books.git'
-      // Get the Maven tool.
-      // ** NOTE: This 'M3' Maven tool must be configured
-      // **       in the global configuration.           
+                
      
    }
    //stage('Build') {
