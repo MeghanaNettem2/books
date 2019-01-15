@@ -13,6 +13,6 @@ node {
       //}
       stage('email')
       {
-    mail body: 'build success mail', subject: 'test', to: 'soumi.paul5@gmail.com'
+    mail body: 'build success mail', subject: 'test', to: 'sweetynmeghana@gmail.com'
 }
 }
